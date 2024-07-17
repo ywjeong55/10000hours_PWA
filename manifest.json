@@ -1,5 +1,5 @@
 {
-  "background_color": "none",
+  "background_color": "#ffffff",
   "dir": "auto",
   "display": "standalone",
   "name": "1만 시간의 법칙",
@@ -7,7 +7,7 @@
   "scope": "/",
   "short_name": "시간의법칙",
   "start_url": "/index.html",
-  "theme_color": "none",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "img/favicon.ico"
