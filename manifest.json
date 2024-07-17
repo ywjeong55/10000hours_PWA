@@ -10,7 +10,7 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "img/icon-512x512.png"
+      "src": "img/maskable_icon_512.ico"
     }
   ],
   "description": "1만 시간의 법칙은 전문가가 되기 위해 며칠이 걸리는지 계산해 주는 서비스입니다.",
