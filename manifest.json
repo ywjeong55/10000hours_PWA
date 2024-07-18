@@ -750,5 +750,10 @@
       "auth": false,
       "update": 86400
     }
-  ]
+  ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
 }
+
+
