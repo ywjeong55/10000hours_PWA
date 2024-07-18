@@ -765,6 +765,17 @@
     {"origin": "*.pwabuilder.com"},
     {"origin": "docs.pwabuilder.co.uk"},
     {"origin": "*.pwabuilder.co.uk"}
+  ],
+  "related_applications": [
+    {
+      "platform": "windows",
+      "url": "https://www.example-app.com",
+      "id": "example.ExampleApp"
+    },
+    {
+      "platform": "play",
+      "url": "https://www.example-app-2.com"
+    }
   ]
 }
 

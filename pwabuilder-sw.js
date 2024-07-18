@@ -73,6 +73,12 @@ self.addEventListener('push', (event) => {
   );
 });
 
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close(); 
+  var fullPath = self.location.origin + event.notification.data.path; 
+  clients.openWindow(fullPath); 
+});
+
 if (typeof navigator.serviceWorker !== 'undefined') {
   navigator.serviceWorker.register('sw.js')
 }
@@ -80,3 +86,4 @@ if (typeof navigator.serviceWorker !== 'undefined') {
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./pwa-examples/js13kpwa/sw.js");
 }
+
