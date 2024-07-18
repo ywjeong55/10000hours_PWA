@@ -754,7 +754,11 @@
   "launch_handler": {
     "client_mode": "focus-existing"
   },
-  "categories": ["business", "utilities"]
+  "categories": ["business", "utilities"],
+  "iarc_rating_id": {
+    "play": "baea39ae-b239-415a-a993-a633cd66e659",
+    "https://myawesomecatalog.com": "e2b13b04-6516-4e37-b9bd-af6ae16f6838"
+  }
 }
 
 
