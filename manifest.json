@@ -727,16 +727,28 @@
   ],
   "widgets": [
     {
-      "name": "New Coffee",
-      "short_name": "Coffee",
-      "description": "Create a new coffee",
-      "url": "/new-coffee.html",
-      "icons": [{ "src": "/icons/new-coffee.png", "sizes": "64x64" }]
+      "name": "PWAmp mini player",
+      "description": "widget to control the PWAmp music player",
+      "tag": "pwamp",
+      "template": "pwamp-template",
+      "ms_ac_template": "widgets/mini-player-template.json",
+      "data": "widgets/mini-player-data.json",
+      "type": "application/json",
+      "screenshots": [
+        {
+          "src": "./screenshot-widget.png",
+          "sizes": "600x400",
+          "label": "The PWAmp mini-player widget"
+        }
+      ],
+      "icons": [
+        {
+          "src": "./favicon-16.png",
+          "sizes": "16x16"
+        }
+      ],
+      "auth": false,
+      "update": 86400
     }
-  ],
-  "launch_handler": {
-    "route_to": "auto",
-    "navigate_existing_client": "always",
-    "navigate_new_client": "never"
-  }  
+  ]
 }
