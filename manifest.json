@@ -733,5 +733,10 @@
       "url": "/new-coffee.html",
       "icons": [{ "src": "/icons/new-coffee.png", "sizes": "64x64" }]
     }
-  ]  
+  ],
+  "launch_handler": {
+    "route_to": "auto",
+    "navigate_existing_client": "always",
+    "navigate_new_client": "never"
+  }  
 }
