@@ -72,3 +72,11 @@ self.addEventListener('push', (event) => {
     })
   );
 });
+
+if (typeof navigator.serviceWorker !== 'undefined') {
+  navigator.serviceWorker.register('sw.js')
+}
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./pwa-examples/js13kpwa/sw.js");
+}
