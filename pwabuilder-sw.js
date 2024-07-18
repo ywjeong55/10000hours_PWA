@@ -46,24 +46,6 @@ self.addEventListener('fetch', (event) => {
   }
 });
 
-self.addEventListener('install', function(event) {
-  // Perform install steps
-  var CACHE_NAME = 'my-cache-v1';
-  var urlsToCache = [
-    '/',
-    '/styles.css',
-    '/app.js'
-  ];
-
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
-  );
-});
-
 self.addEventListener('push', (event) => {
   event.waitUntil(
     self.registration.showNotification('Notification Title', {
@@ -79,11 +61,4 @@ self.addEventListener('notificationclick', (event) => {
   clients.openWindow(fullPath); 
 });
 
-if (typeof navigator.serviceWorker !== 'undefined') {
-  navigator.serviceWorker.register('sw.js')
-}
-
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./pwa-examples/js13kpwa/sw.js");
-}
 
