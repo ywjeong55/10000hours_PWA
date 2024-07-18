@@ -1,6 +1,5 @@
 {
   "dir": "auto",
-  "id": "10000hoursPWA_V0.1",
   "display": "standalone",
   "name": "1만 시간의 법칙",
   "short_name": "시간의 법칙",
@@ -9,6 +8,9 @@
   "background_color": "#ffffff",
   "start_url": "/index.html",
   "orientation": "portrait",
+  "id": "10000hoursPWA_V0.1",
+  "description": "1만시간의법칙사이트",
+  "display_override": ["window-controls-overlay"],  
   "icons": [
     {
       "src": "images/71x71.png",
