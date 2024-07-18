@@ -715,5 +715,23 @@
       "text": "description",
       "url": "link"
     }
-  }  
+  },
+  "shortcuts": [
+    {
+      "name": "New Coffee",
+      "short_name": "Coffee",
+      "description": "Create a new coffee",
+      "url": "/new-coffee.html",
+      "icons": [{ "src": "/icons/new-coffee.png", "sizes": "64x64" }]
+    }
+  ],
+  "widgets": [
+    {
+      "name": "New Coffee",
+      "short_name": "Coffee",
+      "description": "Create a new coffee",
+      "url": "/new-coffee.html",
+      "icons": [{ "src": "/icons/new-coffee.png", "sizes": "64x64" }]
+    }
+  ]  
 }
