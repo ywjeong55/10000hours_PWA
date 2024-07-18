@@ -764,7 +764,7 @@
   "scope_extensions": [
     {"origin": "*.pwabuilder.com"},
     {"origin": "docs.pwabuilder.co.uk"},
-    {"origin": "*.pwabuilder.co.uk"},
+    {"origin": "*.pwabuilder.co.uk"}
   ]
 }
 
