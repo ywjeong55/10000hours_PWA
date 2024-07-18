@@ -705,5 +705,15 @@
       "url": "/lookup?type=%s",
       "method": "GET"
     }
-  ]  
+  ],
+  "share_target": {
+    "action": "/share.html",
+    "enctype": "multipart/form-data",
+    "method": "POST",
+    "params": {
+      "title": "name",
+      "text": "description",
+      "url": "link"
+    }
+  }  
 }
