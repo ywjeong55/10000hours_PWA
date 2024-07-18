@@ -755,7 +755,8 @@
     {
     "client_mode": "focus-existing"
     }
-  ]
+  ],
+  "categories": ["business", "utilities"]
 }
 
 
