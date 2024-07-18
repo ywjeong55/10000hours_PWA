@@ -751,9 +751,11 @@
       "update": 86400
     }
   ],
-  "launch_handler": {
+  "launch_handler": [
+    {
     "client_mode": "focus-existing"
-  }
+    }
+  ]
 }
 
 
