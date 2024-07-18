@@ -697,5 +697,13 @@
         "image/png": [".png"]
       }
     }
+  ],
+  "handle_links": "auto",
+  "protocol_handlers": [
+    {
+      "protocol": "web+coffee",
+      "url": "/lookup?type=%s",
+      "method": "GET"
+    }
   ]  
 }
